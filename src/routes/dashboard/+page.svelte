@@ -105,7 +105,7 @@
 					</a>
 
 					<a
-						href="/history"
+						href="#"
 						class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/clock -->
