@@ -1185,7 +1185,7 @@
 									class="h-10 w-10 flex-none rounded-full"
 								/>
 								<div class="flex-auto">
-									<p class="text-gray-900">Leslie Alexa</p>
+									<p class="text-gray-900">Abelito M. Lim</p>
 									<p class="mt-0.5">
 										<time datetime="2022-01-21T13:00">1:00 PM</time> -
 										<time datetime="2022-01-21T14:30">2:30 PM</time>
