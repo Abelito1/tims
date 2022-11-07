@@ -365,7 +365,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="/records"
 						class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/scale -->
@@ -405,7 +405,7 @@
 								d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
 							/>
 						</svg>
-						Cards
+						Data
 					</a>
 
 					<a
