@@ -386,7 +386,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="/inhitransco"
 						class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/credit-card -->
@@ -405,33 +405,11 @@
 								d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
 							/>
 						</svg>
-						Data
+						INHITRANSCO
 					</a>
 
 					<a
-						href="#"
-						class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/user-group -->
-						<svg
-							class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path fill="currentColor" d="M4 4h16v6H4zm0 9h16v2H4z" opacity=".3" /><path
-								fill="currentColor"
-								d="M20 2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v5l4-2l4 2v-5h4c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm0 13H4v-2h16v2zm0-5H4V4h16v6z"
-							/>
-						</svg>
-
-						Members
-					</a>
-
-					<a
-						href="#"
+						href="/report"
 						class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/document-report -->
@@ -782,8 +760,10 @@
 						class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate"
 					>
 						<div class="flex-1 px-4 py-2 text-sm truncate">
-							<a href="#" class="text-gray-900 font-medium hover:text-gray-600"> INHITRANSCO </a>
-							<p class="text-gray-500">12 Members</p>
+							<a href="/inhitransco" class="text-gray-900 font-medium hover:text-gray-600">
+								INHITRANSCO
+							</a>
+							<p class="text-gray-500">1 Members</p>
 						</div>
 						<div class="flex-shrink-0 pr-2">
 							<button
