@@ -763,7 +763,7 @@
 							<a href="/inhitransco" class="text-gray-900 font-medium hover:text-gray-600">
 								INHITRANSCO
 							</a>
-							<p class="text-gray-500">1 Members</p>
+							<p class="text-gray-500">1 Member</p>
 						</div>
 						<div class="flex-shrink-0 pr-2">
 							<button
