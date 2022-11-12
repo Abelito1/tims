@@ -6,6 +6,6 @@
 	<title>INHITRANSCO System Information</title>
 </svelte:head>
 
-<main>
+<main class="min-h-full">
 	<slot />
 </main>
