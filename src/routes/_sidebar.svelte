@@ -11,6 +11,7 @@
 
 <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
 <div class="fixed inset-0 flex z-40 lg:hidden" role="dialog" aria-modal="true">
+	<div class="fixed inset-0 bg-gray-600 bg-opacity-75" aria-hidden="true" />
 	<div class="flex flex-col flex-grow bg-gray-600 pt-5 pb-4 overflow-y-auto">
 		<div class="absolute top-0 right-0 -mr-12 pt-2">
 			<button
@@ -45,8 +46,7 @@
 				<!-- Current: "bg-cyan-800 text-white", Default: "text-cyan-100 hover:text-white hover:bg-cyan-600" -->
 				<a
 					href="#"
-					class=" text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/dashboard' ? 'bg-cyan-600 text-white' : ''}"
+					class=" text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					aria-current="page"
 				>
 					<!-- Heroicon name: outline/home -->
@@ -68,11 +68,7 @@
 					HOME
 				</a>
 
-				<a
-					href="#"
-					class="text-white flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/applicant' ? 'bg-cyan-600 text-white' : ''}"
-				>
+				<a href="#" class="text-white flex items-center px-2 py-2 text-base font-medium rounded-md">
 					<!-- Heroicon name: outline/clock -->
 					<svg
 						class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200"
@@ -94,8 +90,7 @@
 
 				<a
 					href="#"
-					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/rent' ? 'bg-cyan-600 text-white' : ''}"
+					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 				>
 					<!-- Heroicon name: outline/scale -->
 					<svg
@@ -118,8 +113,7 @@
 
 				<a
 					href="#"
-					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/records' ? 'bg-cyan-600 text-white' : ''}"
+					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 				>
 					<!-- Heroicon name: outline/credit-card -->
 					<svg
@@ -142,8 +136,7 @@
 
 				<a
 					href="#"
-					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/inhitransco' ? 'bg-cyan-600 text-white' : ''}"
+					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 				>
 					<!-- Heroicon name: outline/user-group -->
 					<svg
@@ -166,8 +159,7 @@
 
 				<a
 					href="#"
-					class="text-cyan-100 group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/file' ? 'bg-cyan-600 text-white' : ''}"
+					class="text-cyan-100 group flex items-center px-2 py-2 text-base font-medium rounded-md"
 				>
 					<svg
 						class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200"
@@ -189,8 +181,7 @@
 
 				<a
 					href="#"
-					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
-					{$page.url.pathname == '/executive' ? 'bg-cyan-600 text-white' : ''}"
+					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 				>
 					<svg
 						class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200"
@@ -220,7 +211,6 @@
 
 <!-- Static sidebar for desktop -->
 <div class="hidden lg:flex lg:w-64 lg:flex-col lg:fixed lg:inset-y-0">
-	<!-- Sidebar component, swap this element with another sidebar if you like -->
 	<div class="flex flex-col flex-grow bg-gray-600 pt-5 pb-4 overflow-y-auto">
 		<div class="flex items-center flex-shrink-0 px-4">
 			<img class="h-24 w-auto mx-auto" src={logo} alt="Easywire logo" />
