@@ -175,7 +175,7 @@
 				<div
 					class="flex-shrink-0 flex items-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md"
 				>
-					IT
+					AR
 				</div>
 				<div
 					class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate"
@@ -260,7 +260,7 @@
 				<div
 					class="flex-shrink-0 flex items-center justify-center w-16 bg-green-600 text-white text-sm font-medium rounded-l-md"
 				>
-					IT
+					RC
 				</div>
 				<div
 					class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate"
@@ -343,15 +343,13 @@
 				<div
 					class="flex-shrink-0 flex items-center justify-center w-16 bg-yellow-600 text-white text-sm font-medium rounded-l-md"
 				>
-					IT
+					FM
 				</div>
 				<div
 					class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate"
 				>
 					<div class="flex-1 px-4 py-2 text-sm truncate">
-						<a href="/records" class="text-gray-900 font-medium hover:text-gray-600">
-							FILE MANAGER
-						</a>
+						<a href="/file" class="text-gray-900 font-medium hover:text-gray-600"> FILE MANAGER </a>
 						<p class="text-gray-500">0 Files</p>
 					</div>
 					<div class="flex-shrink-0 pr-2">

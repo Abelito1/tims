@@ -357,10 +357,8 @@
 						aria-hidden="true"
 					>
 						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+							fill="currentColor"
+							d="M7 2a2 2 0 0 0-2 2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2h1a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2-2H7Zm8 3h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1V5ZM5 15H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1v10ZM6 4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4Z"
 						/>
 					</svg>
 					Applicant
@@ -413,6 +411,28 @@
 				</a>
 
 				<a
+					href="/file"
+					class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md
+                    {$page.url.pathname == '/file' ? 'bg-cyan-600 text-white' : ''}"
+				>
+					<!-- Heroicon name: outline/credit-card -->
+					<svg
+						class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill="currentColor"
+							d="M2.165 19.551c.186.28.499.449.835.449h15c.4 0 .762-.238.919-.606l3-7A.998.998 0 0 0 21 11h-1V8c0-1.103-.897-2-2-2h-6.655L8.789 4H4c-1.103 0-2 .897-2 2v13h.007a1 1 0 0 0 .158.551zM18 8v3H6c-.4 0-.762.238-.919.606L4 14.129V8h14z"
+						/>
+					</svg>
+					File manager
+				</a>
+
+				<a
 					href="/executive"
 					class="text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md
                     {$page.url.pathname == '/executive' ? 'bg-cyan-600 text-white' : ''}"
@@ -428,7 +448,7 @@
 					>
 						<path
 							fill="currentColor"
-							d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM12 17.3c-.72 0-1.3-.58-1.3-1.3c0-.72.58-1.3 1.3-1.3c.72 0 1.3.58 1.3 1.3c0 .72-.58 1.3-1.3 1.3zm1-4.3h-2V7h2v6z"
+							d="M9 11a4 4 0 1 0-4-4a4 4 0 0 0 4 4Zm8 2a3 3 0 1 0-3-3a3 3 0 0 0 3 3Zm4 7a1 1 0 0 0 1-1a5 5 0 0 0-8.06-3.95A7 7 0 0 0 2 20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1"
 						/>
 					</svg>
 					Executives
