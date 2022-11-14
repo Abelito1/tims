@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/images/timslogo.png';
-	import page from '$app/stores';
+	import { page } from '$app/stores';
 
 	let isClicked = false;
 
@@ -44,7 +44,7 @@
 			<div class="px-2 space-y-1">
 				<!-- Current: "bg-cyan-800 text-white", Default: "text-cyan-100 hover:text-white hover:bg-cyan-600" -->
 				<a
-					href="#"
+					href="/dashboard"
 					class=" text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/dashboard' ? 'bg-cyan-600 text-white' : ''}"
 					aria-current="page"
@@ -69,7 +69,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/applicant"
 					class="text-white flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/applicant' ? 'bg-cyan-600 text-white' : ''}"
 				>
@@ -93,7 +93,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/rent"
 					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/rent' ? 'bg-cyan-600 text-white' : ''}"
 				>
@@ -117,7 +117,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/records"
 					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/records' ? 'bg-cyan-600 text-white' : ''}"
 				>
@@ -141,7 +141,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/inhitransco"
 					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/inhitransco' ? 'bg-cyan-600 text-white' : ''}"
 				>
@@ -165,7 +165,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/file"
 					class="text-cyan-100 group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/file' ? 'bg-cyan-600 text-white' : ''}"
 				>
@@ -188,7 +188,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/executive"
 					class="text-white group flex items-center px-2 py-2 text-base font-medium rounded-md
 					{$page.url.pathname == '/executive' ? 'bg-cyan-600 text-white' : ''}"
 				>
