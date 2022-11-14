@@ -1,13 +1,12 @@
 <script>
-	import admin from '$lib/images/Admin-Profile.png';
-	import Sidebar from '../_sidebar.svelte';
-	import NavBar from '$lib/components/NavBar.svelte';
-
 	let isClicked = false;
 
 	function toggleDropdown() {
 		isClicked = !isClicked;
 	}
+	import admin from '$lib/images/Admin-Profile.png';
+	import Sidebar from '../_sidebar.svelte';
+	import NavBar from '$lib/components/NavBar.svelte';
 </script>
 
 <Sidebar />
