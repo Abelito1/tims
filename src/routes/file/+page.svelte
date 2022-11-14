@@ -1,5 +1,5 @@
 <script>
-	import Sidebar from '../_sidebar.svelte';
+	import Sidebar from '$lib/components/Sidebar.svelte';
 	import NavBar from '$lib/components/NavBar.svelte';
 
 	let isClicked = false;
