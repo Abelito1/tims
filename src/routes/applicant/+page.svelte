@@ -1,6 +1,6 @@
 <script>
 	import admin from '$lib/images/Admin-Profile.png';
-	import Sidebar from '$lib/components/Sidebar.svelte';
+	import Sidebar from '../_sidebar.svelte';
 	import NavBar from '$lib/components/NavBar.svelte';
 
 	let isClicked = false;
