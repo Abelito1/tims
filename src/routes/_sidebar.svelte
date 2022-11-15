@@ -33,7 +33,7 @@
           From: "translate-x-0"
           To: "-translate-x-full"
       -->
-	<div class="flex flex-col flex-grow bg-gray-600 pt-5 pb-4 overflow-y-auto">
+	<div class="flex flex-col flex-grow bg-gray-600 pt-5 pb-4 overflow-y-auto hidden">
 		<!--
           Close button, show/hide based on off-canvas menu state.
   
@@ -237,7 +237,7 @@
 				<!-- Current: "bg-cyan-800 text-white", Default: "text-cyan-100 hover:text-white hover:bg-cyan-600" -->
 				<a
 					href="/dashboard"
-					class=" text-white hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md
+					class=" text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md
                     {$page.url.pathname == '/dashboard' ? 'bg-cyan-600 text-white' : ''}"
 					aria-current="page"
 				>
