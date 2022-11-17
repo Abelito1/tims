@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>INHITRANSCO System Information</title>
+	<title>INHITRANSCO Information System</title>
 </svelte:head>
 
 <main class="min-h-full">
